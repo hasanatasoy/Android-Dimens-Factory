@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ViewHolder.ViewHolder">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="16" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="5">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="116" y="16" width="511" height="434"/>
+    </constraints>
+    <properties>
+      <background color="-14876767"/>
+      <foreground color="-16711890"/>
+      <inheritsPopupMenu value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="ea6f0" class="javax.swing.JTextField" binding="existDimensPathWithTextField" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-918273"/>
+          <text value="Exist dimens path (with dimens.xml)"/>
+        </properties>
+      </component>
+      <component id="801e8" class="javax.swing.JTextField" binding="factory320dpText">
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Factor (320dp: a typical phone screen (240x320 ldpi, 320x480 mdpi, 480x800 hdpi, etc))."/>
+        </properties>
+      </component>
+      <component id="5c960" class="javax.swing.JTextField" binding="factory480dpText">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Factor (480dp: a large phone screen ~5&quot; (480x800 mdpi))."/>
+        </properties>
+      </component>
+      <component id="11523" class="javax.swing.JTextField" binding="factory600dpText">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Factor (600dp: a 7” tablet (600x1024 mdpi))."/>
+        </properties>
+      </component>
+      <component id="4f133" class="javax.swing.JTextField" binding="factory720dpText">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Factor (720dp: a 10” tablet (720x1280 mdpi, 800x1280 mdpi, etc))."/>
+        </properties>
+      </component>
+      <component id="29d8b" class="javax.swing.JTextField" binding="targetDimensPath">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-918273"/>
+          <text value="Target path (example: D://)"/>
+        </properties>
+      </component>
+      <component id="b6495" class="javax.swing.JButton" binding="createDimensFileButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="0" row-span="4" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16711891"/>
+          <borderPainted value="true"/>
+          <foreground color="-918273"/>
+          <text value="Create dimens file"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
