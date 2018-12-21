@@ -2,7 +2,7 @@
 
 ### Usage
 
-###### Use jar file in App jar folder or look into code and rebuild it yourself, you can do everthing anyway lets see how its work
+###### Use jar file in App jar folder or look into code and rebuild it yourself, you can do everything anyway lets see how its work
 
 ![](https://github.com/hasanatasoy/Android-Dimens-Factory/blob/master/images/appdef.png)
 
